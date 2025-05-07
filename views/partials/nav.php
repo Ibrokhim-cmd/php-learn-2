@@ -9,11 +9,12 @@
             <nav class="flex space-x-4">
                 <a href="/" class="<?= urlIs('/') ? 'bg-gray-800 text-white font-medium' : '' ?> text-gray-300 hover:text-white px-3 py-2 rounded-md">Home</a>
                 <a href="/about" class="<?= urlIs('/about') ? 'bg-gray-800 text-white font-medium' : '' ?> text-gray-300 hover:text-white px-3 py-2 rounded-md">About</a>
+                <a href="/notes" class="<?= urlIs('/notes') ? 'bg-gray-800 text-white font-medium' : '' ?> text-gray-300 hover:text-white px-3 py-2 rounded-md">Notes</a>
                 <a href="/contact" class="<?= urlIs('/contact') ? 'bg-gray-800 text-white font-medium' : '' ?> text-gray-300 hover:text-white px-3 py-2 rounded-md">Contact</a>
             </nav>
         </div>
 
-        <div class="flex items-center space-x-4 relative group">
+    <div class="flex items-center space-x-4 relative group">
             <!-- Notification Icon -->
             <button>
                 <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

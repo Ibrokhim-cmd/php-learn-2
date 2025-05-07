@@ -1,12 +1,13 @@
 <?php require base_path('views/partials/head.php'); ?>
 <?php require base_path('views/partials/nav.php'); ?>
+<?php require base_path('views/partials/banner.php'); ?>
 
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto p-6 pt-0 mt-0">
-        <h1 class="text-2xl font-bold mt-3">Sorry. Page Not Found.</h1>
-        <p class="mt-4">
-            <a href="/" class="text-blue-500 underline">Go back home.</a>
-        </p>
+            <p class="mb-6">
+                <a href="/notes" class="text-blue-500 underline">go back...</a>
+            </p>
+            <p><?= htmlspecialchars($note['body']) ?></p>
     </main>
 
 <?php require base_path('views/partials/footer.php'); ?>
