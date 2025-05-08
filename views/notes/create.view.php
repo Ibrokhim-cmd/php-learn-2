@@ -19,6 +19,7 @@
                                                 rows="3"
                                                 class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 placeholder="Here's an idea for a note..."
+                                                required
                                         ><?= $_POST['body'] ?? '' ?></textarea>
 
                                         <?php if (isset($errors['body'])) : ?>
