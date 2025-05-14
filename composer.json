@@ -1,0 +1,16 @@
+{
+    "name": "ibrohim/php-learn-2",
+    "authors": [
+        {
+            "name": "Ibrokhim-cmd",
+            "email": "avazovibrohim644@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
