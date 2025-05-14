@@ -6,11 +6,26 @@
             "email": "avazovibrohim644@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/collections": "^12.14"
+    },
     "autoload": {
         "psr-4": {
             "Core\\": "Core/",
             "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }
